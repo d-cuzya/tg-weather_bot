@@ -9,7 +9,13 @@ find_package(Threads REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(Boost COMPONENTS system REQUIRED)
 find_package(CURL)
-include_directories(/usr/local/include ${OPENSSL_INCLUDE_DIR} ${Boost_INCLUDE_DIR})
+include_directories(
+    # /usr/local/include
+    ${OPENSSL_INCLUDE_DIR}
+    # ${Boost_INCLUDE_DIR}
+    Boost::boost
+    Boost::system
+)
 if (CURL_FOUND)
     include_directories(${CURL_INCLUDE_DIRS})
     add_definitions(-DHAVE_CURL)
@@ -17,6 +23,11 @@ endif()
 
 add_executable(tg-weather_bot main.cpp
     .env
+    README.md
+    .env.example .gitignore
+    weatherapi.h weatherapi.cpp
+    curleasy.h curleasy.cpp
+
 )
 
 include(GNUInstallDirs)
@@ -35,8 +46,12 @@ target_link_libraries(tg-weather_bot
 
 file(STRINGS ".env" ENV_FILE)
 foreach(line IN LISTS ENV_FILE)
-    if(line MATCHES "^TOKEN=(.*)")
+    if(line MATCHES "^TG_TOKEN=(.*)")
         set(TOKEN "${CMAKE_MATCH_1}")
-        target_compile_definitions(tg-weather_bot PRIVATE TOKEN="${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE TG_TOKEN="${CMAKE_MATCH_1}")
+    endif()
+    if(line MATCHES "^WEATHERAPI_KEY=(.*)")
+        set(TOKEN "${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE WEATHERAPI_KEY="${CMAKE_MATCH_1}")
     endif()
 endforeach()
