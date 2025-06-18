@@ -11,13 +11,16 @@ int main()
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Привет, " + message->from->firstName + "!\nЯ бот, который поможет тебе узнать погоду. Просто отправь мне свою геолокацию, и я пришлю тебе актуальный прогноз. (Данные будут сохранены, если хотите удалить, введите /forget_me )");
     });
+    // bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
+    // });
     bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message) {
         if (message->location) {
             double latitude = message->location->latitude;
             double longitude = message->location->longitude;
-
-            weatherApi.getWeatherByCord(latitude, longitude);
-            bot.getApi().sendMessage(message->chat->id, "Ok");
+            std::string currentWeather = weatherApi.getCurrentWeatherByCord(latitude, longitude);
+            bot.getApi().sendMessage(message->chat->id, "Текущая погода:\n" + currentWeather);
+            std::string forecastWeathe = weatherApi.getForecastWeatherByCord(latitude, longitude);
+            bot.getApi().sendMessage(message->chat->id, "Прогноз погоды:\n" + forecastWeathe);
         }
     });
 
