@@ -27,6 +27,7 @@ add_executable(tg-weather_bot main.cpp
     .env.example .gitignore
     weatherapi.h weatherapi.cpp
     curleasy.h curleasy.cpp
+    json.hpp
 
 )
 

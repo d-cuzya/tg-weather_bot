@@ -19,3 +19,7 @@ cmake -B build
 cmake --build build
 ./build/tg-weather_bot
 ```
+
+# Used
+## [nlohmann/json](https://github.com/nlohmann/json)
+## [reo7sp/tgbot-cpp](https://github.com/reo7sp/tgbot-cpp)
