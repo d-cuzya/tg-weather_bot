@@ -103,7 +103,7 @@ int main()
         }
     });
     bot.getEvents().onCommand("help", [&bot](TgBot::Message::Ptr message) {
-        bot.getApi().sendMessage(message->chat->id, "Описание бота");
+        bot.getApi().sendMessage(message->chat->id, "Чтобы отправить геолокацию боту, вам нужно нажать на значёр прещепки рядом с полем ввода. Там выбрать \"Отправить геолокацию\".");
     });
     bot.getEvents().onCommand("forget_me", [&bot](TgBot::Message::Ptr message) {
         PGresult* incrementCount = PostgresClient::getInstance()->requestSql("delete from coords where userid = "+std::to_string(message->from->id)+";");
