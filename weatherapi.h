@@ -2,7 +2,6 @@
 #define WEATHERAPI_H
 
 #include <iostream>
-#include <boost/json.hpp>
 #include <vector>
 #include <string>
 #include "curleasy.h"

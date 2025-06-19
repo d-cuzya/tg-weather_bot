@@ -8,11 +8,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Threads REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(Boost COMPONENTS system REQUIRED)
+find_package(PostgreSQL REQUIRED)
 find_package(CURL)
 include_directories(
-    # /usr/local/include
     ${OPENSSL_INCLUDE_DIR}
-    # ${Boost_INCLUDE_DIR}
     Boost::boost
     Boost::system
 )
@@ -28,6 +27,10 @@ add_executable(tg-weather_bot main.cpp
     weatherapi.h weatherapi.cpp
     curleasy.h curleasy.cpp
     json.hpp
+    postgresclient.h postgresclient.cpp
+    schem.sql
+    reset_count.sql
+    compose.yaml
 
 )
 
@@ -43,6 +46,7 @@ target_link_libraries(tg-weather_bot
     ${OPENSSL_LIBRARIES}
     ${Boost_LIBRARIES}
     ${CURL_LIBRARIES}
+    PostgreSQL::PostgreSQL
 )
 
 file(STRINGS ".env" ENV_FILE)
@@ -54,5 +58,22 @@ foreach(line IN LISTS ENV_FILE)
     if(line MATCHES "^WEATHERAPI_KEY=(.*)")
         set(TOKEN "${CMAKE_MATCH_1}")
         target_compile_definitions(tg-weather_bot PRIVATE WEATHERAPI_KEY="${CMAKE_MATCH_1}")
+    endif()
+
+    if(line MATCHES "^DB_HOST=(.*)")
+        set(TOKEN "${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE DB_HOST="${CMAKE_MATCH_1}")
+    endif()
+    if(line MATCHES "^DB_NAME=(.*)")
+        set(TOKEN "${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE DB_NAME="${CMAKE_MATCH_1}")
+    endif()
+    if(line MATCHES "^DB_USER=(.*)")
+        set(TOKEN "${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE DB_USER="${CMAKE_MATCH_1}")
+    endif()
+    if(line MATCHES "^DB_PASSWORD=(.*)")
+        set(TOKEN "${CMAKE_MATCH_1}")
+        target_compile_definitions(tg-weather_bot PRIVATE DB_PASSWORD="${CMAKE_MATCH_1}")
     endif()
 endforeach()
