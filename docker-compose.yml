@@ -1,0 +1,41 @@
+services:
+  postgres-bot:
+    image: postgres:latest
+    restart: always
+    container_name: postgres-bot
+    build:
+      context: ./postgres
+      dockerfile: Dockerfile
+    environment:
+      POSTGRES_DB: tg_weather
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+    volumes:
+      - ./postgres/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./postgres/reset_count.sql:/docker-entrypoint-initdb.d/reset_count.sql
+      - pgdata:/var/lib/postgresql/data
+      - ./postgres/pg_cron.sh:/etc/cron.d/reset_cron
+    ports:
+      - "9999:5432"
+    networks:
+      - mynetwork
+    # command: ["/bin/bash", "-c", "cron && docker-entrypoint.sh postgres"]
+    command: ["bash", "-c", "docker-entrypoint.sh postgres & sleep 5 && psql -U postgres -d tg_weather -f /docker-entrypoint-initdb.d/schema.sql && wait"]
+
+  cpp-bot:
+    build: ./src
+    depends_on:
+      - postgres-bot
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    networks:
+      - mynetwork
+    command: bash -c "cmake -B build && cmake --build build && ./build/tg-weather_bot"
+
+volumes:
+  pgdata:
+
+networks:
+  mynetwork:
+    driver: bridge

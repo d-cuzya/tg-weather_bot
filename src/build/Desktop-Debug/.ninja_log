@@ -1,0 +1,8 @@
+# ninja log v5
+1	174	1750350751200616614	build.ninja	757d837f04287964
+31	526	1750265133648268893	CMakeFiles/tg-weather_bot.dir/curleasy.cpp.o	bd25699cc4f1f39
+29	2910	1750265136016315493	CMakeFiles/tg-weather_bot.dir/weatherapi.cpp.o	7a621b351446c2af
+18	1117	1750321473753811260	CMakeFiles/tg-weather_bot.dir/postgresclient.cpp.o	1674f1cac853ab5c
+25	123	1750349767883890768	CMakeFiles/tg-weather_bot.dir/main.cpp.o	2f79a149e44f81ec
+123	1539	1750349769299889401	tg-weather_bot	598cb76e2824fab5
+6	49	1750339546047707923	CMakeFiles/tg-weather_bot.dir/worker.cpp.o	cf3406cb096255a6
