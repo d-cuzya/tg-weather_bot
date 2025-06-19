@@ -126,7 +126,6 @@ int main()
     bot.getEvents().onCommand("help", [&bot](TgBot::Message::Ptr message) {
         mtQ.pushTask([bot, message]() {
             std::cout << "help\tThreadId:\t" << std::this_thread::get_id() << "\n";
-            // std::this_thread::sleep_for(std::chrono::seconds(10));
             bot.getApi().sendMessage(message->chat->id, "Чтобы отправить геолокацию боту, вам нужно нажать на значёр прещепки рядом с полем ввода. Там выбрать \"Отправить геолокацию\".");
         });
     });
