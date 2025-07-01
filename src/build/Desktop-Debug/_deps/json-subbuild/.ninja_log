@@ -1,0 +1,37 @@
+# ninja log v5
+68918	68946	1751386379636719132	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	d17d7a3161161e19
+68918	68946	1751386379636719132	json-populate-prefix/src/json-populate-stamp/json-populate-build	d17d7a3161161e19
+68889	68918	1751386379608721372	json-populate-prefix/src/json-populate-stamp/json-populate-configure	5909a6c9c6ba1fc7
+68946	68974	1751386379664716893	json-populate-prefix/src/json-populate-stamp/json-populate-install	13e815a71f0d4bda
+1	32	1751386310722587513	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	2f4c481d68a3dbd4
+69001	69044	1751386379734711295	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	e220533bced6b12c
+69001	69044	1751386379734711295	json-populate-prefix/src/json-populate-stamp/json-populate-done	e220533bced6b12c
+69001	69044	1751386379734711295	CMakeFiles/json-populate-complete	e220533bced6b12c
+68974	69001	1751386379691714734	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	c54f7c7bf3a77d19
+68974	69001	1751386379691714734	json-populate-prefix/src/json-populate-stamp/json-populate-test	c54f7c7bf3a77d19
+68946	68974	1751386379664716893	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	13e815a71f0d4bda
+1	32	1751386310722587513	json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	2f4c481d68a3dbd4
+32	68026	1751386378716792749	json-populate-prefix/src/json-populate-stamp/json-populate-download	a3449687e1f345fc
+32	68026	1751386378716792749	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download	a3449687e1f345fc
+68026	68857	0	json-populate-prefix/src/json-populate-stamp/json-populate-update	dacfa03257bd819f
+68026	68857	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	dacfa03257bd819f
+68889	68918	1751386379608721372	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	5909a6c9c6ba1fc7
+68857	68888	1751386379578723771	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	cb1dac008bb1807f
+68857	68888	1751386379578723771	json-populate-prefix/src/json-populate-stamp/json-populate-patch	cb1dac008bb1807f
+69001	69044	1751386379734711295	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/CMakeFiles/json-populate-complete	e220533bced6b12c
+1	699	0	json-populate-prefix/src/json-populate-stamp/json-populate-update	dacfa03257bd819f
+1	699	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	dacfa03257bd819f
+699	727	1751386442126992577	json-populate-prefix/src/json-populate-stamp/json-populate-patch	cb1dac008bb1807f
+699	727	1751386442126992577	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	cb1dac008bb1807f
+727	756	1751386442155990505	json-populate-prefix/src/json-populate-stamp/json-populate-configure	5909a6c9c6ba1fc7
+727	756	1751386442155990505	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	5909a6c9c6ba1fc7
+756	785	1751386442184988434	json-populate-prefix/src/json-populate-stamp/json-populate-build	d17d7a3161161e19
+756	785	1751386442184988434	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	d17d7a3161161e19
+785	816	1751386442214986291	json-populate-prefix/src/json-populate-stamp/json-populate-install	13e815a71f0d4bda
+785	816	1751386442214986291	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	13e815a71f0d4bda
+816	844	1751386442243984219	json-populate-prefix/src/json-populate-stamp/json-populate-test	c54f7c7bf3a77d19
+816	844	1751386442243984219	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	c54f7c7bf3a77d19
+844	887	1751386442286981147	CMakeFiles/json-populate-complete	e220533bced6b12c
+844	887	1751386442286981147	json-populate-prefix/src/json-populate-stamp/json-populate-done	e220533bced6b12c
+844	887	1751386442286981147	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/CMakeFiles/json-populate-complete	e220533bced6b12c
+844	887	1751386442286981147	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	e220533bced6b12c

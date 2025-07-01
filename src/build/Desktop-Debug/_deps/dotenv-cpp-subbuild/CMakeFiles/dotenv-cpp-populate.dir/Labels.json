@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate-complete.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-download.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dotenv-cpp-populate"
+		],
+		"name" : "dotenv-cpp-populate"
+	}
+}

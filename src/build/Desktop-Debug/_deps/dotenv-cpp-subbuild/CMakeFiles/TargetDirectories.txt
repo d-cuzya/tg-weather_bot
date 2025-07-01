@@ -1,0 +1,3 @@
+/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate.dir
+/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/edit_cache.dir
+/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/rebuild_cache.dir
