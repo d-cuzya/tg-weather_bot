@@ -20,6 +20,8 @@ cmake -B build
 cmake --build build
 ./build/tg-weather_bot
 ```
+# Architecture
+<img src="assets/architecture.png" alt="Диаграмма" width="400"/> <br />
 # Used
 [nlohmann/json](https://github.com/nlohmann/json)<br />
 [reo7sp/tgbot-cpp](https://github.com/reo7sp/tgbot-cpp) <br />
