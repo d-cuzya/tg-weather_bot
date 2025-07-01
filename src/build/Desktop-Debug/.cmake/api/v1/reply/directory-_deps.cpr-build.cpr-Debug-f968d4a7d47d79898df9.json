@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/Desktop-Debug/_deps/cpr-src/cpr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/cpr-build/cpr/libcpr.a"
+			],
+			"targetId" : "cpr::@c4b08663df96993e8225",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/cpr",
+			"paths" : 
+			[
+				"build/Desktop-Debug/_deps/cpr-build/cpr/cprConfig.cmake",
+				"build/Desktop-Debug/_deps/cpr-build/cpr/cprConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/cpr",
+			"exportName" : "cprTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "cpr::@c4b08663df96993e8225",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/cpr-build/cpr/CMakeFiles/Export/9cbb545e1300ea60881e0aa5742b2a45/cprTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/cpr-build/cpr",
+		"source" : "build/Desktop-Debug/_deps/cpr-src/cpr"
+	}
+}

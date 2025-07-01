@@ -1,0 +1,21 @@
+# ninja log v5
+1	32	1751404804519200658	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	ab549c759b9a8c48
+1	32	1751404804519200658	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	ab549c759b9a8c48
+32	2448	1751404806935210645	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	aed52883f59042c2
+32	2448	1751404806935210645	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	aed52883f59042c2
+2448	2476	0	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	59591698fa75644b
+2448	2476	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	59591698fa75644b
+2476	2505	1751404806992210880	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	c531d09d1161ba85
+2476	2505	1751404806992210880	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	c531d09d1161ba85
+2505	2534	1751404807021211000	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	460f9edefb815f9c
+2505	2534	1751404807021211000	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	460f9edefb815f9c
+2534	2562	1751404807050211119	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	e87fdea89d6ec1fb
+2534	2562	1751404807050211119	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	e87fdea89d6ec1fb
+2562	2591	1751404807079211238	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	4b1ae5b0fc191691
+2562	2591	1751404807079211238	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	4b1ae5b0fc191691
+2591	2620	1751404807108211358	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	5c2ec7e0fd3e77dd
+2591	2620	1751404807108211358	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	5c2ec7e0fd3e77dd
+2620	2663	1751404807150211531	CMakeFiles/cpr-populate-complete	c48b905fe76ee239
+2620	2663	1751404807150211531	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	c48b905fe76ee239
+2620	2663	1751404807150211531	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	c48b905fe76ee239
+2620	2663	1751404807150211531	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	c48b905fe76ee239

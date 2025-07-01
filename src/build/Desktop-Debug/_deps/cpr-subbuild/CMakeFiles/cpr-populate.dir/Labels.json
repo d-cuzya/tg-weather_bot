@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test.rule"
+		},
+		{
+			"file" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr-populate"
+		],
+		"name" : "cpr-populate"
+	}
+}

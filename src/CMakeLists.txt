@@ -31,7 +31,18 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/nlohmann/json.git
   GIT_TAG master
 )
-FetchContent_MakeAvailable(dotenv-cpp json)
+set(CPR_USE_SYSTEM_CURL ON)
+set(CPR_USE_SYSTEM_LIB_PSL ON)
+FetchContent_Declare(
+  cpr
+  GIT_REPOSITORY https://github.com/libcpr/cpr.git
+  GIT_TAG da40186618909b1a7363d4e4495aa899c6e0eb75
+)
+FetchContent_MakeAvailable(
+  dotenv-cpp
+  json
+  cpr
+)
 
 add_executable(tg-weather_bot main.cpp
     .env.example
@@ -41,6 +52,7 @@ add_executable(tg-weather_bot main.cpp
     postgresclient.h postgresclient.cpp
     multiQueue.h
     .env
+    mytgbot.h mytgbot.cpp
 
 )
 
@@ -57,9 +69,11 @@ target_link_libraries(tg-weather_bot
     ${Boost_LIBRARIES}
     ${CURL_LIBRARIES}
     PostgreSQL::PostgreSQL
+    cpr::cpr
 )
 
 target_include_directories(tg-weather_bot PRIVATE
   ${dotenv-cpp_SOURCE_DIR}/include/laserpants/dotenv/
   ${json_SOURCE_DIR}/single_include/nlohmann
+  ${cpr_SOURCE_DIR}/include/
 )

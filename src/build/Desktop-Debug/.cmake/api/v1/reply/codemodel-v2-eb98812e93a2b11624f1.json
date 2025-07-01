@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-96aa9f03b0f248cfe42d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/dotenv-cpp-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.dotenv-cpp-build-Debug-cce1a5bcae96e2769276.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/Desktop-Debug/_deps/dotenv-cpp-src"
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-ca88bfcc768e5fc2f5a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/Desktop-Debug/_deps/json-src"
+				},
+				{
+					"build" : "_deps/cpr-build",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.cpr-build-Debug-17842bb2f6f18777c3bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/Desktop-Debug/_deps/cpr-src"
+				},
+				{
+					"build" : "_deps/cpr-build/cpr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.cpr-build.cpr-Debug-f968d4a7d47d79898df9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/Desktop-Debug/_deps/cpr-src/cpr",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/cpr-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.cpr-build.include-Debug-a8ec0a31139607321492.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/Desktop-Debug/_deps/cpr-src/include"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tg-weather_bot",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "laserpants_dotenv",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cpr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "cpr::@c4b08663df96993e8225",
+					"jsonFile" : "target-cpr-Debug-5e1cd32d1a6d866c15c4.json",
+					"name" : "cpr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tg-weather_bot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tg-weather_bot-Debug-dabd3e89a918a70e7443.json",
+					"name" : "tg-weather_bot",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug",
+		"source" : "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

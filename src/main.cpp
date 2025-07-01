@@ -1,5 +1,4 @@
 #include <iostream>
-#include <tgbot/tgbot.h>
 #include <format>
 #include <libpq-fe.h>
 #include <stdlib.h>
@@ -9,33 +8,31 @@
 #include "postgresclient.h"
 #include "multiQueue.h"
 #include "dotenv.h"
+#include "cpr/cpr.h"
+#include <tgbot/tgbot.h>
 
 WeatherApi weatherApi("https://api.openweathermap.org/data/2.5/");
-TgBot::Bot bot(TG_TOKEN);
-multitQueue mtQ;
+// multitQueue mtQ;TgBot::Bot((std::getenv("TG_TOKEN")));
 
 int main()
 {
     dotenv::init("./../../.env");
 
-    if (!PostgresClient::getInstance()->connectToBD("host=" + std::string(DB_HOST) + " port=5432 dbname=" + std::string(DB_NAME) +" user="+ std::string(DB_USER) +" password=" + std::string(DB_PASSWORD))) {
+    std::cout
+        << "host="     << std::string(std::getenv("DB_HOST") ? std::getenv("DB_HOST") : "")
+        << " port="    << std::string(std::getenv("DB_PORT") ? std::getenv("DB_PORT") : "")
+        << " dbname="  << std::string(std::getenv("DB_NAME") ? std::getenv("DB_NAME") : "")
+        << " user="    << std::string(std::getenv("DB_USER") ? std::getenv("DB_USER") : "")
+        << " password="<< std::string(std::getenv("DB_PASSWORD") ? std::getenv("DB_PASSWORD") : "")
+        << std::endl;
+
+    if (!PostgresClient::getInstance()->connectToBD("host=" + std::string(std::getenv("DB_HOST")) + " port="+ std::string(std::getenv("DB_PORT")) +" dbname=" + std::string(std::getenv("DB_NAME")) +" user="+ std::string(std::getenv("DB_USER")) +" password=" + std::string(std::getenv("DB_PASSWORD")))) {
         return 1;
     }
-    std::thread th1([&mtQ]() {
-        while (true) {
-            auto task = mtQ.popTask();
-            if (task) {
-                try {
-                    task();
-                } catch (const std::exception& e) {
-                    std::cerr << "Ошибка в задаче: " << e.what() << "\n";
-                }
-            }
-        }
-    });
+
+    TgBot::Bot bot((std::getenv("TG_TOKEN")));
 
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
-        mtQ.pushTask([bot, message]() {
         std::cout << "start\tThreadId:\t" << std::this_thread::get_id() << "\n";
         bot.getApi().sendMessage(message->chat->id,"Привет, " + message->from->firstName +
                                                     "!\nЯ бот, который поможет тебе узнать погоду.\n"
@@ -54,10 +51,8 @@ int main()
                 }
             }
         }
-        });
     });
     bot.getEvents().onCommand("weather", [&bot](TgBot::Message::Ptr message) {
-        mtQ.pushTask([bot, message]() {
         std::cout << "weather\tThreadId:\t" << std::this_thread::get_id() << "\n";
         PGresult* res = PostgresClient::getInstance()->requestSql("SELECT EXISTS(SELECT 1 FROM coords WHERE userid = " + std::to_string(message->from->id) +")");
         if (PQresultStatus(res) != PGRES_TUPLES_OK) {
@@ -124,13 +119,10 @@ int main()
                 bot.getApi().sendMessage(message->chat->id, "Вы ещё не отправляли геолокацию! Отправьте свою геолокацию и я отправлю расписание погоды.");
             }
         }
-        });
     });
     bot.getEvents().onCommand("help", [&bot](TgBot::Message::Ptr message) {
-        mtQ.pushTask([bot, message]() {
             std::cout << "help\tThreadId:\t" << std::this_thread::get_id() << "\n";
             bot.getApi().sendMessage(message->chat->id, "Чтобы отправить геолокацию боту, вам нужно нажать на значёр прещепки рядом с полем ввода. Там выбрать \"Отправить геолокацию\".");
-        });
     });
     bot.getEvents().onCommand("forget_me", [&bot](TgBot::Message::Ptr message) {
         std::cout << "forget_me\tThreadId:\t" << std::this_thread::get_id() << "\n";
@@ -142,7 +134,6 @@ int main()
         }
     });
     bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message) {
-        mtQ.pushTask([bot, message]() {
         std::cout << "anyMsg\tThreadId:\t" << std::this_thread::get_id() << "\n";
         if (message->location) {
             PGresult* countCheck = PostgresClient::getInstance()->requestSql("SELECT count_msg, max_msg FROM users WHERE telegramid = "+std::to_string(message->from->id)+";");
@@ -202,7 +193,6 @@ int main()
                 }
             }
         }
-        });
         // bot.getApi().sendMessage(message->chat->id, "Сообщение или команда не распознаны!\nВведите:\n/start чтобы увидеть список всех комманд\n/help - количество оставшихся запросов.");
     });
 
@@ -211,13 +201,13 @@ int main()
         printf("Bot @%s was started.\n", bot.getApi().getMe()->username.c_str());
         TgBot::TgLongPoll longPoll(bot);
         while (true) {
-            std::cout << "longPoll\tThreadId:\t" << std::this_thread::get_id() << "\n";
+            // std::cout << "longPoll\tThreadId:\t" << std::this_thread::get_id() << "\n";
             longPoll.start();
         }
     } catch (TgBot::TgException& e) {
         printf("error: %s\n", e.what());
     }
 
-    th1.join();
+    // th1.join();
     return 0;
 }

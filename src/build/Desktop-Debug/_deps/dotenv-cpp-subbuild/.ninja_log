@@ -1,37 +1,21 @@
 # ninja log v5
-2	32	1751386047912741237	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-mkdir	36dda8b572fd6c6b
-793	824	1751386310512606543	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
-732	763	1751386310451612071	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
-700	732	1751386310419614970	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
-824	868	1751386310556602556	CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
-668	700	1751386310388617779	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
-2	668	0	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
-824	868	1751386310556602556	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
-824	868	1751386310556602556	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178
-764	793	1751386310480609443	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
-793	824	1751386310512606543	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
-700	732	1751386310419614970	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
-2	668	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
-32	1051	1751386048931748698	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-download	3a20fa48fe63dccc
-2	32	1751386047912741237	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-mkdir	36dda8b572fd6c6b
-732	763	1751386310451612071	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
-764	793	1751386310480609443	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
-32	1051	1751386048931748698	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-download	3a20fa48fe63dccc
-668	700	1751386310388617779	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
-824	868	1751386310556602556	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178
-1	730	0	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
-1	730	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
-730	760	1751386441138063333	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
-730	760	1751386441138063333	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
-760	789	1751386441166061330	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
-760	789	1751386441166061330	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
-789	817	1751386441194059326	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
-789	817	1751386441194059326	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
-817	848	1751386441226057036	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
-817	848	1751386441226057036	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
-848	878	1751386441256054889	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
-848	878	1751386441256054889	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
-878	920	1751386441297051955	CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
-878	920	1751386441297051955	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178
-878	920	1751386441297051955	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
-878	920	1751386441297051955	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178
+1	32	1751404699060693701	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-mkdir	36dda8b572fd6c6b
+1	32	1751404699060693701	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-mkdir	36dda8b572fd6c6b
+32	1412	1751404700438701284	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-download	3a20fa48fe63dccc
+32	1412	1751404700438701284	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-download	3a20fa48fe63dccc
+1412	2139	0	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
+1412	2139	0	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-update	542b4fd56c471ca5
+2139	2168	1751404701196705444	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
+2139	2168	1751404701196705444	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-patch	4814b8631e3a227e
+2168	2197	1751404701225705603	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
+2168	2197	1751404701225705603	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-configure	126e47ea62e41baf
+2197	2225	1751404701253705757	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
+2197	2225	1751404701253705757	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-build	d333d46762ade3b6
+2225	2254	1751404701282705916	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
+2225	2254	1751404701282705916	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-install	c2fe78995b2a17b4
+2254	2285	1751404701312706080	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
+2254	2285	1751404701312706080	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-test	e660c8ab9747d6f7
+2285	2328	1751404701355706315	CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
+2285	2328	1751404701355706315	dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178
+2285	2328	1751404701355706315	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/CMakeFiles/dotenv-cpp-populate-complete	b19c76606681f178
+2285	2328	1751404701355706315	/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-subbuild/dotenv-cpp-populate-prefix/src/dotenv-cpp-populate-stamp/dotenv-cpp-populate-done	b19c76606681f178

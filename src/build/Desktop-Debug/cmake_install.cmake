@@ -52,6 +52,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-build/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tg-weather_bot" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tg-weather_bot")
