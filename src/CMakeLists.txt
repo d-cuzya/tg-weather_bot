@@ -47,11 +47,12 @@ FetchContent_MakeAvailable(
 add_executable(tg-weather_bot main.cpp
     .env.example
     weatherapi.h weatherapi.cpp
-    curleasy.h curleasy.cpp
-    json.hpp
+
+
     postgresclient.h postgresclient.cpp
-    multiQueue.h
+
     .env
+    mytgbot.h mytgbot.cpp
     mytgbot.h mytgbot.cpp
 
 )

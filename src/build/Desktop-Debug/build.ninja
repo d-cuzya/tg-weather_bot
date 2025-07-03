@@ -56,8 +56,6 @@ build CMakeFiles/tg-weather_bot.dir/main.cpp.o: CXX_COMPILER__tg-weather_bot_uns
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-src/include/laserpants/dotenv" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-src/single_include/nlohmann" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes" -isystem /usr/include/postgresql -isystem /usr/include/postgresql/16/server
   OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
   OBJECT_FILE_DIR = CMakeFiles/tg-weather_bot.dir
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
-  TARGET_PDB = tg-weather_bot.pdb
 
 build CMakeFiles/tg-weather_bot.dir/weatherapi.cpp.o: CXX_COMPILER__tg-weather_bot_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/weatherapi.cpp || cmake_object_order_depends_target_tg-weather_bot
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DHAVE_CURL
@@ -66,18 +64,6 @@ build CMakeFiles/tg-weather_bot.dir/weatherapi.cpp.o: CXX_COMPILER__tg-weather_b
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-src/include/laserpants/dotenv" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-src/single_include/nlohmann" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes" -isystem /usr/include/postgresql -isystem /usr/include/postgresql/16/server
   OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
   OBJECT_FILE_DIR = CMakeFiles/tg-weather_bot.dir
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
-  TARGET_PDB = tg-weather_bot.pdb
-
-build CMakeFiles/tg-weather_bot.dir/curleasy.cpp.o: CXX_COMPILER__tg-weather_bot_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/curleasy.cpp || cmake_object_order_depends_target_tg-weather_bot
-  DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DHAVE_CURL
-  DEP_FILE = CMakeFiles/tg-weather_bot.dir/curleasy.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-src/include/laserpants/dotenv" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-src/single_include/nlohmann" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes" -isystem /usr/include/postgresql -isystem /usr/include/postgresql/16/server
-  OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
-  OBJECT_FILE_DIR = CMakeFiles/tg-weather_bot.dir
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
-  TARGET_PDB = tg-weather_bot.pdb
 
 build CMakeFiles/tg-weather_bot.dir/postgresclient.cpp.o: CXX_COMPILER__tg-weather_bot_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/postgresclient.cpp || cmake_object_order_depends_target_tg-weather_bot
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DHAVE_CURL
@@ -86,8 +72,6 @@ build CMakeFiles/tg-weather_bot.dir/postgresclient.cpp.o: CXX_COMPILER__tg-weath
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-src/include/laserpants/dotenv" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-src/single_include/nlohmann" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes" -isystem /usr/include/postgresql -isystem /usr/include/postgresql/16/server
   OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
   OBJECT_FILE_DIR = CMakeFiles/tg-weather_bot.dir
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
-  TARGET_PDB = tg-weather_bot.pdb
 
 build CMakeFiles/tg-weather_bot.dir/mytgbot.cpp.o: CXX_COMPILER__tg-weather_bot_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/mytgbot.cpp || cmake_object_order_depends_target_tg-weather_bot
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DHAVE_CURL
@@ -96,8 +80,6 @@ build CMakeFiles/tg-weather_bot.dir/mytgbot.cpp.o: CXX_COMPILER__tg-weather_bot_
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/dotenv-cpp-src/include/laserpants/dotenv" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-src/single_include/nlohmann" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes" -isystem /usr/include/postgresql -isystem /usr/include/postgresql/16/server
   OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
   OBJECT_FILE_DIR = CMakeFiles/tg-weather_bot.dir
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
-  TARGET_PDB = tg-weather_bot.pdb
 
 
 # =============================================================================
@@ -107,15 +89,14 @@ build CMakeFiles/tg-weather_bot.dir/mytgbot.cpp.o: CXX_COMPILER__tg-weather_bot_
 #############################################
 # Link the executable tg-weather_bot
 
-build tg-weather_bot: CXX_EXECUTABLE_LINKER__tg-weather_bot_Debug CMakeFiles/tg-weather_bot.dir/main.cpp.o CMakeFiles/tg-weather_bot.dir/weatherapi.cpp.o CMakeFiles/tg-weather_bot.dir/curleasy.cpp.o CMakeFiles/tg-weather_bot.dir/postgresclient.cpp.o CMakeFiles/tg-weather_bot.dir/mytgbot.cpp.o | /usr/local/lib/libTgBot.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0 /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libpq.so _deps/cpr-build/cpr/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so || _deps/cpr-build/cpr/libcpr.a
+build tg-weather_bot: CXX_EXECUTABLE_LINKER__tg-weather_bot_Debug CMakeFiles/tg-weather_bot.dir/main.cpp.o CMakeFiles/tg-weather_bot.dir/weatherapi.cpp.o CMakeFiles/tg-weather_bot.dir/postgresclient.cpp.o CMakeFiles/tg-weather_bot.dir/mytgbot.cpp.o | /usr/local/lib/libTgBot.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0 /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libpq.so _deps/cpr-build/cpr/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so || _deps/cpr-build/cpr/libcpr.a
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = /usr/local/lib/libTgBot.a  /usr/lib/x86_64-linux-gnu/libssl.so  /usr/lib/x86_64-linux-gnu/libcrypto.so  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0  /usr/lib/x86_64-linux-gnu/libcurl.so  /usr/lib/x86_64-linux-gnu/libpq.so  _deps/cpr-build/cpr/libcpr.a  /usr/lib/x86_64-linux-gnu/libcurl.so  /usr/lib/x86_64-linux-gnu/libssl.so  /usr/lib/x86_64-linux-gnu/libcrypto.so
   OBJECT_DIR = CMakeFiles/tg-weather_bot.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/tg-weather_bot.dir/
   TARGET_FILE = tg-weather_bot
-  TARGET_PDB = tg-weather_bot.pdb
+  TARGET_PDB = tg-weather_bot.dbg
 
 
 #############################################
@@ -413,8 +394,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.o: CXX_COMPILER
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/async.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -423,8 +402,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.o: CXX_COMPILER__cpr_unsc
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/auth.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -433,8 +410,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.o: CXX_COMPILER__cpr_unsca
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/callback.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -443,8 +418,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.o: CXX_COMPILER__cpr_u
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/cert_info.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -453,8 +426,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.o: CXX_COMPILER__cpr_
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/cookies.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -463,8 +434,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/cprtypes.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -473,8 +442,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.o: CXX_COMPILER__cpr_u
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/curl_container.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -483,8 +450,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.o: CXX_COMPILER_
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/curlholder.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -493,8 +458,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.o: CXX_COMPILER__cpr
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/error.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -503,8 +466,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.o: CXX_COMPILER__cpr_unsc
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/file.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -513,8 +474,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.o: CXX_COMPILER__cpr_unsca
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/multipart.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -523,8 +482,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.o: CXX_COMPILER__cpr_
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/parameters.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -533,8 +490,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.o: CXX_COMPILER__cpr
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/payload.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -543,8 +498,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/proxies.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -553,8 +506,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/proxyauth.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -563,8 +514,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.o: CXX_COMPILER__cpr_
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/session.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -573,8 +522,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/threadpool.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -583,8 +530,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.o: CXX_COMPILER__cpr
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/timeout.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -593,8 +538,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/unix_socket.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -603,8 +546,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.o: CXX_COMPILER__cp
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/util.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -613,8 +554,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.o: CXX_COMPILER__cpr_unsca
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/response.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -623,8 +562,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.o: CXX_COMPILER__cpr_u
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/redirect.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -633,8 +570,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.o: CXX_COMPILER__cpr_u
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/interceptor.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -643,8 +578,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.o: CXX_COMPILER__cp
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/ssl_ctx.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -653,8 +586,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.o: CXX_COMPILER__cpr_un
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/curlmultiholder.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -663,8 +594,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.o: CXX_COMPILER
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.o: CXX_COMPILER__cpr_unscanned_Debug /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cpr/multiperform.cpp || cmake_object_order_depends_target_cpr
   DEFINES = -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL -DHAVE_CURL -DOPENSSL_BACKEND_USED
@@ -673,8 +602,6 @@ build _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.o: CXX_COMPILER__c
   INCLUDES = -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::boost" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/Boost::system" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/include" -I"/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/cpr_generated_includes"
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   OBJECT_FILE_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
 
 
 # =============================================================================
@@ -689,9 +616,8 @@ build _deps/cpr-build/cpr/libcpr.a: CXX_STATIC_LIBRARY_LINKER__cpr_Debug _deps/c
   OBJECT_DIR = _deps/cpr-build/cpr/CMakeFiles/cpr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cpr.pdb
   TARGET_FILE = _deps/cpr-build/cpr/libcpr.a
-  TARGET_PDB = _deps/cpr-build/cpr/libcpr.pdb
+  TARGET_PDB = cpr.a.dbg
 
 
 #############################################
@@ -887,14 +813,14 @@ build _deps/json-build/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.83.0.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-shared.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-static.cmake /usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /usr/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/ExternalProject.cmake /usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.28/Modules/FetchContent.cmake /usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in /usr/share/cmake-3.28/Modules/FindBoost.cmake /usr/share/cmake-3.28/Modules/FindCURL.cmake /usr/share/cmake-3.28/Modules/FindDoxygen.cmake /usr/share/cmake-3.28/Modules/FindGit.cmake /usr/share/cmake-3.28/Modules/FindOpenSSL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake /usr/share/cmake-3.28/Modules/FindPostgreSQL.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake _deps/cpr-src/CMakeLists.txt _deps/cpr-src/cmake/clear_variable.cmake _deps/cpr-src/cmake/code_coverage.cmake _deps/cpr-src/cmake/cprConfig.cmake.in _deps/cpr-src/cmake/cprver.h.in _deps/cpr-src/cmake/sanitizer.cmake _deps/cpr-src/cmake/std_fs_support_test.cpp _deps/cpr-src/cpr/CMakeLists.txt _deps/cpr-src/include/CMakeLists.txt _deps/dotenv-cpp-src/CMakeLists.txt _deps/dotenv-cpp-src/src/laserpants_dotenv-config.h.in _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in
+build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.83.0.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-shared.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-static.cmake /usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /usr/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/ExternalProject.cmake /usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.28/Modules/FetchContent.cmake /usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in /usr/share/cmake-3.28/Modules/FindBoost.cmake /usr/share/cmake-3.28/Modules/FindCURL.cmake /usr/share/cmake-3.28/Modules/FindDoxygen.cmake /usr/share/cmake-3.28/Modules/FindGit.cmake /usr/share/cmake-3.28/Modules/FindOpenSSL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake /usr/share/cmake-3.28/Modules/FindPostgreSQL.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake _deps/cpr-src/CMakeLists.txt _deps/cpr-src/cmake/clear_variable.cmake _deps/cpr-src/cmake/code_coverage.cmake _deps/cpr-src/cmake/cprConfig.cmake.in _deps/cpr-src/cmake/cprver.h.in _deps/cpr-src/cmake/sanitizer.cmake _deps/cpr-src/cmake/std_fs_support_test.cpp _deps/cpr-src/cpr/CMakeLists.txt _deps/cpr-src/include/CMakeLists.txt _deps/dotenv-cpp-src/CMakeLists.txt _deps/dotenv-cpp-src/src/laserpants_dotenv-config.h.in _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build .qtc/package-manager/auto-setup.cmake /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.83.0.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-shared.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-static.cmake /usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /usr/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.28/Modules/ExternalProject.cmake /usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.28/Modules/FetchContent.cmake /usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in /usr/share/cmake-3.28/Modules/FindBoost.cmake /usr/share/cmake-3.28/Modules/FindCURL.cmake /usr/share/cmake-3.28/Modules/FindDoxygen.cmake /usr/share/cmake-3.28/Modules/FindGit.cmake /usr/share/cmake-3.28/Modules/FindOpenSSL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake /usr/share/cmake-3.28/Modules/FindPostgreSQL.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake _deps/cpr-src/CMakeLists.txt _deps/cpr-src/cmake/clear_variable.cmake _deps/cpr-src/cmake/code_coverage.cmake _deps/cpr-src/cmake/cprConfig.cmake.in _deps/cpr-src/cmake/cprver.h.in _deps/cpr-src/cmake/sanitizer.cmake _deps/cpr-src/cmake/std_fs_support_test.cpp _deps/cpr-src/cpr/CMakeLists.txt _deps/cpr-src/include/CMakeLists.txt _deps/dotenv-cpp-src/CMakeLists.txt _deps/dotenv-cpp-src/src/laserpants_dotenv-config.h.in _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in: phony
+build .qtc/package-manager/auto-setup.cmake /home/d-cuzya/Рабочий$ стол/tg-weather_bot/src/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.83.0.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0/boost_headers-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config-version.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/boost_system-config.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-shared.cmake /usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0/libboost_system-variant-static.cmake /usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /usr/share/cmake-3.28/Modules/BasicConfigVersion-ExactVersion.cmake.in /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake /usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/ExternalProject.cmake /usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.28/Modules/FetchContent.cmake /usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in /usr/share/cmake-3.28/Modules/FindBoost.cmake /usr/share/cmake-3.28/Modules/FindCURL.cmake /usr/share/cmake-3.28/Modules/FindDoxygen.cmake /usr/share/cmake-3.28/Modules/FindGit.cmake /usr/share/cmake-3.28/Modules/FindOpenSSL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake /usr/share/cmake-3.28/Modules/FindPostgreSQL.cmake /usr/share/cmake-3.28/Modules/FindThreads.cmake /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake _deps/cpr-src/CMakeLists.txt _deps/cpr-src/cmake/clear_variable.cmake _deps/cpr-src/cmake/code_coverage.cmake _deps/cpr-src/cmake/cprConfig.cmake.in _deps/cpr-src/cmake/cprver.h.in _deps/cpr-src/cmake/sanitizer.cmake _deps/cpr-src/cmake/std_fs_support_test.cpp _deps/cpr-src/cpr/CMakeLists.txt _deps/cpr-src/include/CMakeLists.txt _deps/dotenv-cpp-src/CMakeLists.txt _deps/dotenv-cpp-src/src/laserpants_dotenv-config.h.in _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in: phony
 
 
 #############################################

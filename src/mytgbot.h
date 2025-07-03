@@ -2,15 +2,25 @@
 #define MYTGBOT_H
 
 #include <tgbot/tgbot.h>
+#include <libpq-fe.h>
+#include <json.hpp>
+#include "weatherapi.h"
+#include "postgresclient.h"
 
 class mytgbot
 {
 public:
+    void setToken(const std::string& _url);
+    void initLogic();
+    void startBot();
     static mytgbot* getInstance();
+    ~mytgbot();
 private:
+    static mytgbot* instance;
     mytgbot();
     mytgbot(const mytgbot&) = delete;
-    static mytgbot* instance;
+    mytgbot operator=(const mytgbot&) = delete;
+
     TgBot::Bot* bot;
 };
 

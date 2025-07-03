@@ -15,6 +15,8 @@ public:
     ~PostgresClient();
 private:
     PostgresClient();
+    PostgresClient(const PostgresClient&) = delete;
+    PostgresClient operator=(const PostgresClient&) = delete;
     static PostgresClient* instance;
 
     PGconn* connection;

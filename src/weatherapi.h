@@ -4,16 +4,24 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "curleasy.h"
+#include "cpr/cpr.h"
 
 class WeatherApi
 {
 public:
+    static WeatherApi* getInstance();
+
     std::string getCurrentWeatherByCord(const double& latitude, const double& longitude);
     std::string getForecastWeatherByCord(const double& latitude, const double& longitude);
-    WeatherApi(const std::string& _url);
+    void setUrl(const std::string& _url);
 private:
+    WeatherApi();
+    WeatherApi(const WeatherApi&) = delete;
+    WeatherApi operator=(const WeatherApi&) = delete;
+    ~WeatherApi();
+
     std::string url;
+    static WeatherApi* instance;
 };
 
 #endif // WEATHERAPI_H

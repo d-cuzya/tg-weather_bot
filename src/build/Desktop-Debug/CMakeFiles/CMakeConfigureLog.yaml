@@ -314,3 +314,111 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/Desktop-Debug/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_a41e8
+        [1/2] /usr/lib/ccache/g++   -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles/cmTC_a41e8.dir/std_fs_support_test.cpp.o -c '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake/std_fs_support_test.cpp'
+        [2/2] : && /usr/lib/ccache/g++ -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  CMakeFiles/cmTC_a41e8.dir/std_fs_support_test.cpp.o -o cmTC_a41e8   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/Desktop-Debug/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_bef22
+        [1/2] /usr/lib/ccache/g++   -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles/cmTC_bef22.dir/std_fs_support_test.cpp.o -c '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake/std_fs_support_test.cpp'
+        [2/2] : && /usr/lib/ccache/g++ -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  CMakeFiles/cmTC_bef22.dir/std_fs_support_test.cpp.o -o cmTC_bef22   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/Desktop-Debug/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d4afe
+        [1/2] /usr/lib/ccache/g++   -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles/cmTC_d4afe.dir/std_fs_support_test.cpp.o -c '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake/std_fs_support_test.cpp'
+        [2/2] : && /usr/lib/ccache/g++ -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  CMakeFiles/cmTC_d4afe.dir/std_fs_support_test.cpp.o -o cmTC_d4afe   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/Desktop-Debug/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d-cuzya/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f4e03
+        [1/2] /usr/lib/ccache/g++   -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles/cmTC_f4e03.dir/std_fs_support_test.cpp.o -c '/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/cpr-src/cmake/std_fs_support_test.cpp'
+        [2/2] : && /usr/lib/ccache/g++ -DQT_QML_DEBUG -Wall -Wextra -Wpedantic -Werror  CMakeFiles/cmTC_f4e03.dir/std_fs_support_test.cpp.o -o cmTC_f4e03   && :
+        
+      exitCode: 0
+...

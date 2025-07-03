@@ -81,5 +81,5 @@ CMakeLists.txt.user*
 .uic/
 
 # Source files
-./src/build/*
-./env/.env
+/src/build/
+/src/.env

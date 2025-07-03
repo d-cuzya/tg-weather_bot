@@ -1,6 +1,7 @@
 #include "postgresclient.h"
 
 PostgresClient* PostgresClient::instance = nullptr;
+
 PostgresClient::PostgresClient() {}
 PostgresClient::~PostgresClient() {
     PQfinish(connection);
