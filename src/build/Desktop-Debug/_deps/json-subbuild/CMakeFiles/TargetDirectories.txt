@@ -1,3 +1,0 @@
-/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/CMakeFiles/json-populate.dir
-/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/CMakeFiles/edit_cache.dir
-/home/d-cuzya/Рабочий стол/tg-weather_bot/src/build/Desktop-Debug/_deps/json-subbuild/CMakeFiles/rebuild_cache.dir
