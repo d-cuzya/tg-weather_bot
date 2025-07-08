@@ -16,22 +16,21 @@ void WeatherApi::setUrl(const std::string& _url) {
 }
 
 std::string WeatherApi::getCurrentWeatherByCord(const double& latitude, const double& longitude) {
-    cpr::Response r = cpr::Get(cpr::Url{this->url + "weather"},
+    return cpr::Get(cpr::Url{this->url + "weather"},
                                cpr::Parameters{{"lat", std::to_string(latitude)},
                                                {"lon", std::to_string(longitude)},
                                                {"appid", std::getenv("WEATHERAPI_KEY")},
                                                {"lang", "ru"},
                                                {"cnt", "6"},
-                                               {"units", "metric"}});
-    return r.text;
+                                               {"units", "metric"}}).text;
 }
+
 std::string WeatherApi::getForecastWeatherByCord(const double& latitude, const double& longitude) {
-    cpr::Response r = cpr::Get(cpr::Url{this->url + "forecast"},
+    return cpr::Get(cpr::Url{this->url + "forecast"},
                                cpr::Parameters{{"lat", std::to_string(latitude)},
                                                {"lon", std::to_string(longitude)},
                                                {"appid", std::getenv("WEATHERAPI_KEY")},
                                                {"lang", "ru"},
                                                {"cnt", "6"},
-                                               {"units", "metric"}});
-    return r.text;
+                                               {"units", "metric"}}).text;
 }
